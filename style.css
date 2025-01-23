@@ -160,3 +160,35 @@ form {
     font-weight: bold;
     font-size: 12px;
 }
+
+.create-account-section{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 130px;
+}
+
+.create-account-section button{
+    width: 150px;
+    height: 35px;
+    margin: 20px 30px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #F9FAFB;
+    background-color: #596D48;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.create-account-section p{
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.create-account-section a{
+    color: #596D48;
+    text-decoration: none;
+}
