@@ -134,11 +134,11 @@ h2{
     margin: 20px 0 10px 30px;
 }
 
-form {
+form{
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 190px;
+    height: 270px;
     max-width: 600px; 
 }
 
@@ -151,7 +151,7 @@ form {
     margin-left: 30px;
 }
 
-.form-input {
+.form-input{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -159,6 +159,24 @@ form {
     width: 100%;
     font-weight: bold;
     font-size: 12px;
+}
+
+.form-input input{
+    border: 2px solid #E5E7EB;
+    width: 80%;
+    border-radius: 3px;
+}
+
+input:focus {
+    border-color: #3847d5;  
+    outline: none; 
+    box-shadow: 0 0 5px rgba(21, 106, 210, 0.5); 
+}
+
+input:invalid {
+    border-color: #d53838;  
+    outline: none; 
+    box-shadow: 0 0 5px rgba(210, 21, 40, 0.5); 
 }
 
 .create-account-section{

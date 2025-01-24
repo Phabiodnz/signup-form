@@ -20,7 +20,7 @@
             <div class="right-section-content gray-section">
                 <div class="form-call-to-action">
                     <p>This is not a real online service! You know you need something<br>
-                        like this in your life to help you realize your deepest dreams. <br>
+                        like this in your life to help you realize your deepest dreams.<br>
                         Sign up now to get started.</p>
                     <p>You know you want to.</p>
                 </div>
@@ -32,41 +32,38 @@
                     <div class="form-section">
                         <div class="form-input">
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" name="first-name" id="first-name" required>
                         </div>
                         <div class="form-input">
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" required>
                         </div>
                     </div>
                     <div class="form-section">
                         <div class="form-input">
                             <label for="email">EMAIL</label>
-                            <input type="text" name="email" id="email">
+                            <input type="email" inputmode="email" name="email" id="email" required>
                         </div>
                         <div class="form-input">
                             <label for="phone-number">PHONE NUMBER</label>
-                            <input type="text" name="phone-number" id="phone-number">
+                            <input type="tel" name="phone-number" inputmode="numeric" pattern="[0-9]+" id="phone-number" required title="Only numbers are accepted">
                         </div>
                     </div>
                     <div class="form-section">
                         <div class="form-input">
                             <label for="password">PASSWORD</label>
-                            <input type="text" name="password" id="password">
+                            <input type="password" name="password" id="password" required>
                         </div>
                         <div class="form-input">
                             <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="text" name="confirm-password" id="confirm-password">
+                            <input type="password" name="confirm-password" id="confirm-password" required>
                         </div>
                     </div>
+                    <div class="create-account-section">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="">Log in</a></p>
+                    </div>
                 </form>
-            </div>
-            
-            <div class="right-section-content gray-section">
-                <div class="create-account-section">
-                    <button>Create Account</button>
-                    <p>Already have an account? <a href="">Log in</a></p>
-                </div>
             </div>
         </div>
     </div>
